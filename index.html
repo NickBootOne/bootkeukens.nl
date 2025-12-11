@@ -841,6 +841,28 @@
         grid-template-columns: minmax(0, 1fr);
       }
     }
+    
+    /* HERO FIX – voorkomt overlap van tag en tekst op mobiel */
+    @media (max-width: 640px) {
+      .bk-hero-card {
+        position: relative;
+      }
+    
+      .bk-hero-tag {
+        position: static; /* Niet meer absoluut */
+        margin-top: 0.5rem;
+      }
+    
+      .bk-hero-float {
+        position: static; /* Zet 'm in de normale flow */
+        margin-top: 0.75rem;
+        text-align: left;
+      }
+    
+      .bk-hero-card img {
+        margin-bottom: 0.75rem;
+      }
+    }  
   </style>
 
   <!-- Structured data: LocalBusiness / HomeAndConstructionBusiness -->
