@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boot Keukens & Interieurbouw | Maatwerk keukens en interieur Helmond</title>
+  <meta name="description" content="Boot Keukens & Interieurbouw in Helmond ontwerpt en maakt sinds 1953 maatwerk keukens, kasten en interieur. Vakmanschap, korte lijnen en persoonlijke aandacht." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://bootkeukens.nl/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Boot Keukens & Interieurbouw | Maatwerk keukens en interieur Helmond" />
+  <meta property="og:description" content="Maatwerk keukens, kasten en interieur in Helmond. Sinds 1953 vakmanschap in keukens en interieurbouw." />
+  <meta property="og:url" content="https://bootkeukens.nl/" />
+  <meta property="og:site_name" content="Boot Keukens & Interieurbouw" />
+  <meta property="og:image" content="https://bootkeukens.nl/content/images/2021/10/kam-idris-hYb7kbu4x7E-unsplash.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Boot Keukens & Interieurbouw" />
+  <meta name="twitter:description" content="Maatwerk keukens, kasten en interieur in Helmond." />
+  <meta name="twitter:image" content="https://bootkeukens.nl/content/images/2021/10/kam-idris-hYb7kbu4x7E-unsplash.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700|playfair-display:400,500,600" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bk-orange: #f47a22;      /* huisstijl oranje */
+      --bk-orange-soft: #ffe1c7;
+      --bk-bg: #f5f2ee;          /* warme off white */
+      --bk-text: #222222;
+      --bk-muted: #666666;
+      --bk-border: #e0ddd8;
+      --bk-radius-lg: 18px;
+      --bk-radius-xl: 26px;
+      --bk-shadow-soft: 0 18px 35px rgba(15, 10, 5, 0.08);
+      --bk-transition: 220ms ease-out;
+      --bk-max-width: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--bk-text);
+      background: radial-gradient(circle at top left, #fdf7f2 0, #f5f2ee 45%, #ece7df 100%);
+      scroll-behavior: smooth;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Layout helpers */
+
+    .bk-shell {
+      max-width: var(--bk-max-width);
+      margin: 0 auto;
+      padding: 0 1.6rem;
+    }
+
+    .bk-section {
+      padding: 4.5rem 0;
+    }
+
+    .bk-section--tight {
+      padding: 3.5rem 0;
+    }
+
+    .bk-section--alt {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(6px);
+    }
+
+    .bk-section__header {
+      margin-bottom: 2.4rem;
+    }
+
+    .bk-eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--bk-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .bk-title {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: clamp(1.9rem, 2.4vw, 2.2rem);
+      letter-spacing: 0.01em;
+      margin: 0 0 0.8rem;
+    }
+
+    .bk-lead {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--bk-muted);
+      max-width: 40rem;
+    }
+
+    /* Header / Nav */
+
+    .bk-header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(12px);
+      background: linear-gradient(to bottom, rgba(245, 242, 238, 0.96), rgba(245, 242, 238, 0.88), transparent);
+      border-bottom: 1px solid rgba(224, 221, 216, 0.6);
+    }
+
+    .bk-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 1.6rem;
+      max-width: var(--bk-max-width);
+      margin: 0 auto;
+    }
+
+    .bk-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .bk-logo img {
+      height: 38px;
+      width: auto;
+    }
+
+    .bk-logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bk-logo-title {
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .bk-logo-sub {
+      font-size: 0.78rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-nav {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      font-size: 0.9rem;
+    }
+
+    .bk-nav a {
+      position: relative;
+      padding-bottom: 0.2rem;
+    }
+
+    .bk-nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--bk-orange), #ffb15e);
+      transition: width var(--bk-transition);
+    }
+
+    .bk-nav a:hover::after,
+    .bk-nav a:focus-visible::after {
+      width: 100%;
+    }
+
+    .bk-nav-cta {
+      padding: 0.45rem 0.95rem;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.06);
+      background: radial-gradient(circle at top left, var(--bk-orange-soft), #fff7ed);
+      box-shadow: 0 12px 25px rgba(226, 112, 22, 0.12);
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: transform var(--bk-transition), box-shadow var(--bk-transition), background var(--bk-transition);
+    }
+
+    .bk-nav-cta span {
+      font-size: 1.05rem;
+    }
+
+    .bk-nav-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 32px rgba(191, 88, 16, 0.18);
+      background: radial-gradient(circle at top left, #ffe0c2, #fffaf2);
+    }
+
+    /* Mobile nav */
+
+    .bk-nav-toggle {
+      display: none;
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: rgba(255,255,255,0.9);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .bk-nav-toggle span,
+    .bk-nav-toggle span::before,
+    .bk-nav-toggle span::after {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 2px;
+      border-radius: 999px;
+      background: #2b2621;
+      transition: transform 200ms ease, opacity 200ms ease, top 200ms ease, bottom 200ms ease;
+      position: relative;
+    }
+
+    .bk-nav-toggle span::before {
+      position: absolute;
+      top: -6px;
+    }
+
+    .bk-nav-toggle span::after {
+      position: absolute;
+      bottom: -6px;
+    }
+
+    .bk-nav-toggle.is-open span {
+      transform: rotate(45deg);
+    }
+    .bk-nav-toggle.is-open span::before {
+      top: 0;
+      transform: rotate(-90deg);
+    }
+    .bk-nav-toggle.is-open span::after {
+      bottom: 0;
+      opacity: 0;
+    }
+
+    .bk-nav-mobile {
+      display: none;
+      flex-direction: column;
+      gap: 0.85rem;
+      padding: 0 1.6rem 1.1rem;
+      font-size: 0.94rem;
+    }
+
+    .bk-nav-mobile a {
+      padding: 0.25rem 0;
+    }
+
+    /* Hero */
+
+    .bk-hero {
+      padding: 3.3rem 0 4.6rem;
+    }
+
+    .bk-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 2.6rem;
+      align-items: center;
+    }
+
+    .bk-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.22rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      box-shadow: 0 12px 26px rgba(15, 10, 5, 0.08);
+      margin-bottom: 1rem;
+    }
+
+    .bk-pill-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 0, #ffd9b1, var(--bk-orange));
+    }
+
+    .bk-hero-title {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: clamp(2.2rem, 3.2vw, 2.8rem);
+      line-height: 1.08;
+      margin: 0 0 1rem;
+      letter-spacing: 0.01em;
+    }
+
+    .bk-hero-title span {
+      color: var(--bk-orange);
+    }
+
+    .bk-hero-text {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--bk-muted);
+      max-width: 32rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .bk-hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.4rem;
+      align-items: center;
+      margin-bottom: 1.8rem;
+    }
+
+    .bk-meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      font-size: 0.86rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-meta-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.72rem;
+      color: #908579;
+    }
+
+    .bk-meta-value {
+      font-weight: 600;
+    }
+
+    .bk-hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      align-items: center;
+    }
+
+    .bk-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.75rem 1.4rem;
+      border-radius: 999px;
+      border: none;
+      font-size: 0.94rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: transform var(--bk-transition), box-shadow var(--bk-transition), background var(--bk-transition), color var(--bk-transition);
+    }
+
+    .bk-button--primary {
+      background: linear-gradient(135deg, var(--bk-orange), #ffb15e);
+      color: #2b2621;
+      box-shadow: 0 16px 35px rgba(191, 88, 16, 0.3);
+    }
+
+    .bk-button--primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 22px 44px rgba(164, 76, 20, 0.35);
+      background: linear-gradient(135deg, #ff8c33, #ffc168);
+    }
+
+    .bk-button--ghost {
+      background: rgba(255, 255, 255, 0.92);
+      color: #3b342f;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+
+    .bk-button--ghost:hover {
+      background: rgba(255,255,255,1);
+      transform: translateY(-1px);
+      box-shadow: 0 14px 30px rgba(20, 12, 6, 0.15);
+    }
+
+    .bk-button-icon {
+      font-size: 1.1rem;
+    }
+
+    .bk-hero-note {
+      font-size: 0.8rem;
+      color: #8a7d70;
+      margin-top: 0.6rem;
+    }
+
+    .bk-hero-media {
+      position: relative;
+    }
+
+    .bk-hero-card {
+      border-radius: var(--bk-radius-xl);
+      overflow: hidden;
+      box-shadow: var(--bk-shadow-soft);
+      background: #121010;
+      position: relative;
+    }
+
+    .bk-hero-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      max-height: 380px;
+    }
+
+    .bk-hero-tag {
+      position: absolute;
+      inset: auto 1.3rem 1.3rem auto;
+      padding: 0.55rem 0.95rem;
+      border-radius: 999px;
+      background: rgba(18, 16, 13, 0.88);
+      color: #fdf7f2;
+      font-size: 0.78rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      backdrop-filter: blur(6px);
+    }
+
+    .bk-hero-tag-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 25% 0, #ffe5c7, var(--bk-orange));
+    }
+
+    .bk-hero-float {
+      position: absolute;
+      inset: auto auto 50% -0.4rem;
+      transform: translateY(50%);
+      background: rgba(255, 255, 255, 0.92);
+      padding: 0.9rem 1rem;
+      border-radius: 16px;
+      border: 1px solid rgba(0,0,0,0.04);
+      box-shadow: 0 18px 45px rgba(17, 8, 0, 0.23);
+      font-size: 0.78rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      max-width: 210px;
+    }
+
+    .bk-hero-float strong {
+      font-size: 0.84rem;
+    }
+
+    .bk-hero-float small {
+      color: var(--bk-muted);
+    }
+
+    /* Services */
+
+    .bk-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.7rem;
+    }
+
+    .bk-card {
+      background: #ffffff;
+      border-radius: var(--bk-radius-lg);
+      padding: 1.5rem 1.4rem 1.6rem;
+      border: 1px solid var(--bk-border);
+      box-shadow: 0 10px 25px rgba(15, 10, 5, 0.04);
+      transition: transform var(--bk-transition), box-shadow var(--bk-transition), border-color var(--bk-transition), background var(--bk-transition);
+    }
+
+    .bk-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 40px rgba(15, 10, 5, 0.14);
+      border-color: rgba(244, 122, 34, 0.6);
+      background: #fffdf9;
+    }
+
+    .bk-card-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 0, #ffe7c9, var(--bk-orange));
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .bk-card-title {
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      font-size: 1rem;
+    }
+
+    .bk-card-text {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: var(--bk-muted);
+    }
+
+    .bk-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.9rem 0 0;
+      font-size: 0.88rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-list li {
+      display: flex;
+      gap: 0.45rem;
+      align-items: flex-start;
+      margin-bottom: 0.3rem;
+    }
+
+    .bk-list-bullet {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      margin-top: 0.4rem;
+      background: var(--bk-orange);
+      flex-shrink: 0;
+    }
+
+    /* Impressies */
+
+    .bk-grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 1.8rem;
+      align-items: center;
+    }
+
+    .bk-gallery {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 0.9rem;
+    }
+
+    .bk-gallery img {
+      border-radius: 16px;
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .bk-gallery-main {
+      min-height: 260px;
+    }
+
+    .bk-gallery-side {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 0.9rem;
+      min-height: 260px;
+    }
+
+    .bk-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: rgba(244, 122, 34, 0.08);
+      color: #7d4820;
+      border: 1px solid rgba(244, 122, 34, 0.18);
+      margin-bottom: 0.7rem;
+    }
+
+    .bk-badge i {
+      font-size: 0.92rem;
+    }
+
+    /* Proces / werkwijze */
+
+    .bk-steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.4rem;
+      font-size: 0.88rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-step-number {
+      width: 26px;
+      height: 26px;
+      border-radius: 999px;
+      background: rgba(244, 122, 34, 0.1);
+      color: #7d3f12;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.84rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .bk-step-title {
+      font-weight: 600;
+      color: var(--bk-text);
+      margin-bottom: 0.2rem;
+    }
+
+    /* Contact */
+
+    .bk-contact-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 1.8rem;
+    }
+
+    .bk-contact-card {
+      background: #ffffff;
+      border-radius: var(--bk-radius-lg);
+      padding: 1.6rem 1.5rem 1.7rem;
+      border: 1px solid var(--bk-border);
+      box-shadow: 0 12px 26px rgba(15, 10, 5, 0.06);
+      font-size: 0.9rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.1rem;
+      margin-top: 1.1rem;
+    }
+
+    .bk-contact-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #978a7e;
+      margin-bottom: 0.2rem;
+    }
+
+    .bk-contact-value {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--bk-text);
+    }
+
+    .bk-contact-value a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .bk-contact-note {
+      font-size: 0.82rem;
+      color: var(--bk-muted);
+      margin-top: 0.9rem;
+    }
+
+    .bk-contact-form {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: var(--bk-radius-lg);
+      padding: 1.6rem 1.5rem 1.7rem;
+      border: 1px solid var(--bk-border);
+      box-shadow: 0 12px 26px rgba(15, 10, 5, 0.06);
+      font-size: 0.9rem;
+    }
+
+    .bk-field {
+      margin-bottom: 0.9rem;
+    }
+
+    .bk-field label {
+      display: block;
+      font-size: 0.82rem;
+      margin-bottom: 0.3rem;
+      color: var(--bk-muted);
+    }
+
+    .bk-field input,
+    .bk-field textarea {
+      width: 100%;
+      border-radius: 11px;
+      border: 1px solid var(--bk-border);
+      padding: 0.55rem 0.7rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      background: #fcfbf9;
+      transition: border-color var(--bk-transition), box-shadow var(--bk-transition), background var(--bk-transition);
+      resize: vertical;
+      min-height: 40px;
+    }
+
+    .bk-field textarea {
+      min-height: 90px;
+    }
+
+    .bk-field input:focus,
+    .bk-field textarea:focus {
+      outline: none;
+      border-color: rgba(244, 122, 34, 0.7);
+      box-shadow: 0 0 0 1px rgba(244, 122, 34, 0.15);
+      background: #ffffff;
+    }
+
+    .bk-form-footnote {
+      font-size: 0.78rem;
+      color: var(--bk-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* Footer */
+
+    .bk-footer {
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      padding: 1.5rem 0 1.8rem;
+      font-size: 0.8rem;
+      color: #8b8177;
+      background: rgba(245, 242, 238, 0.9);
+    }
+
+    .bk-footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .bk-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+    }
+
+    .bk-footer-links a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    /* Scroll animations */
+
+    .bk-reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 600ms ease-out, transform 600ms ease-out;
+    }
+
+    .bk-reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 900px) {
+      .bk-hero-grid,
+      .bk-grid-2,
+      .bk-contact-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .bk-hero-media {
+        order: -1;
+      }
+
+      .bk-hero {
+        padding-top: 2.5rem;
+      }
+    }
+
+    @media (max-width: 780px) {
+      .bk-nav {
+        display: none;
+      }
+
+      .bk-nav-toggle {
+        display: inline-flex;
+      }
+
+      .bk-nav-mobile {
+        display: flex;
+      }
+
+      .bk-grid-3,
+      .bk-steps {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .bk-gallery {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .bk-gallery-side {
+        grid-template-rows: minmax(0, 1fr);
+        grid-auto-rows: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 540px) {
+      .bk-header-inner {
+        padding-inline: 1.1rem;
+      }
+
+      .bk-shell {
+        padding-inline: 1.1rem;
+      }
+
+      .bk-hero-card img {
+        max-height: 300px;
+      }
+
+      .bk-hero-float {
+        position: static;
+        transform: none;
+        margin-top: 0.9rem;
+        max-width: 100%;
+      }
+
+      .bk-contact-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+
+  <!-- Structured data: LocalBusiness / HomeAndConstructionBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Boot Keukens & Interieurbouw",
+    "image": "https://bootkeukens.nl/content/images/2021/10/kam-idris-hYb7kbu4x7E-unsplash.jpg",
+    "url": "https://bootkeukens.nl/",
+    "telephone": "+31-492-539002",
+    "email": "info@bootkeukens.nl",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Burgemeester Krollaan 9",
+      "postalCode": "5707BA",
+      "addressLocality": "Helmond",
+      "addressCountry": "NL"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Helmond"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.478,
+      "longitude": 5.656
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:30",
+        "closes": "17:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bk-header">
+    <div class="bk-header-inner">
+      <a href="#top" class="bk-logo">
+        <img src="https://bootkeukens.nl/content/images/logo/BootKeukens.png" alt="Logo Boot Keukens & Interieurbouw" />
+      </a>
+
+      <nav class="bk-nav" aria-label="Hoofdmenu">
+        <a href="#over">Over ons</a>
+        <a href="#diensten">Diensten</a>
+        <a href="#impressies">Impressies</a>
+        <a href="#werkwijze">Werkwijze</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="bk-nav-cta">
+          <span>Plan een kennismaking</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </nav>
+
+      <button class="bk-nav-toggle" aria-label="Navigatie openen">
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="bk-nav-mobile" aria-label="Mobiel hoofdmenu">
+      <a href="#over">Over ons</a>
+      <a href="#diensten">Diensten</a>
+      <a href="#impressies">Impressies</a>
+      <a href="#werkwijze">Werkwijze</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="bk-hero bk-shell">
+      <div class="bk-hero-grid">
+        <div class="bk-hero-content bk-reveal">
+          <div class="bk-pill">
+            <span class="bk-pill-dot"></span>
+            Sinds 1953 vakmanschap in Helmond
+          </div>
+          <h1 class="bk-hero-title">
+            Maatwerk <span>keukens</span> en interieur<br /> met oog voor detail.
+          </h1>
+          <p class="bk-hero-text">
+            Boot Keukens &amp; Interieurbouw ontwerpt en maakt keukens, kasten en maatwerkmeubels
+            voor particulieren en aannemers. Korte lijnen, eerlijk advies en ambachtelijk vakwerk
+            uit eigen werkplaats in Helmond.
+          </p>
+
+          <div class="bk-hero-meta">
+            <div class="bk-meta-item">
+              <span class="bk-meta-label">Expertise</span>
+              <span class="bk-meta-value">Keukens, kasten &amp; interieurbouw</span>
+            </div>
+            <div class="bk-meta-item">
+              <span class="bk-meta-label">Regio</span>
+              <span class="bk-meta-value">Helmond en omgeving</span>
+            </div>
+          </div>
+
+          <div class="bk-hero-cta-row">
+            <a href="#contact" class="bk-button bk-button--primary">
+              <span>Vraag rustig een oriënterend gesprek aan</span>
+              <span class="bk-button-icon" aria-hidden="true">→</span>
+            </a>
+            <a href="#impressies" class="bk-button bk-button--ghost">
+              <span class="bk-button-icon" aria-hidden="true">▢</span>
+              <span>Bekijk recente projecten</span>
+            </a>
+          </div>
+
+          <p class="bk-hero-note">
+            Geen harde verkoop, maar samen kijken naar wat het beste past bij uw ruimte en budget.
+          </p>
+        </div>
+
+        <div class="bk-hero-media bk-reveal">
+          <div class="bk-hero-card">
+            <img src="https://bootkeukens.nl/content/images/2021/10/kam-idris-hYb7kbu4x7E-unsplash.jpg" alt="Moderne keuken met hout en donkere details" />
+            <div class="bk-hero-tag">
+              <span class="bk-hero-tag-dot"></span>
+              <span>Maatwerk tot op de millimeter</span>
+            </div>
+
+            <div class="bk-hero-float">
+              <strong>Boot Keukens &amp; Interieurbouw</strong>
+              <small>Al generaties lang een begrip in Helmond voor keukens, kasten en interieur.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Over ons -->
+    <section id="over" class="bk-section bk-section--alt">
+      <div class="bk-shell bk-reveal">
+        <div class="bk-section__header">
+          <div class="bk-eyebrow">Over ons</div>
+          <h2 class="bk-title">Familiebedrijf met een lange geschiedenis in keukens.</h2>
+          <p class="bk-lead">
+            Wat ooit begon als terrazzobedrijf, groeide uit tot een specialist in keukens en interieurbouw.
+            Inmiddels staat de derde generatie Boot aan het roer en combineren we traditioneel vakmanschap
+            met moderne materialen en oplossingen.
+          </p>
+        </div>
+
+        <div class="bk-grid-3">
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">✓</div>
+            <h3 class="bk-card-title">Eerlijk advies</h3>
+            <p class="bk-card-text">
+              We denken kritisch met u mee: wat is praktisch, wat is mooi en wat past bij uw budget.
+              Geen loze beloftes, maar duidelijke afspraken.
+            </p>
+          </article>
+
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">◆</div>
+            <h3 class="bk-card-title">Eigen werkplaats</h3>
+            <p class="bk-card-text">
+              Het maatwerk wordt in onze eigen werkplaats in Helmond voorbereid en gemonteerd.
+              Zo houden we de kwaliteit in iedere stap in eigen handen.
+            </p>
+          </article>
+
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">∞</div>
+            <h3 class="bk-card-title">Maatwerk &amp; renovatie</h3>
+            <p class="bk-card-text">
+              Van een compleet nieuwe keuken tot het vervangen van fronten of bladen:
+              we kijken eerst wat er al is en wat slim te hergebruiken is.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diensten -->
+    <section id="diensten" class="bk-section">
+      <div class="bk-shell bk-reveal">
+        <div class="bk-section__header">
+          <div class="bk-eyebrow">Diensten</div>
+          <h2 class="bk-title">Wat we voor u kunnen maken.</h2>
+          <p class="bk-lead">
+            Boot Keukens &amp; Interieurbouw werkt voor particulieren, aannemers en instellingen.
+            Altijd met dezelfde insteek: duurzaam maatwerk dat jarenlang meekan.
+          </p>
+        </div>
+
+        <div class="bk-grid-3">
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">🍽</div>
+            <h3 class="bk-card-title">Keukens voor particulieren</h3>
+            <p class="bk-card-text">
+              Van compacte keuken tot royale leefkeuken, exact afgestemd op uw ruimte en woonstijl.
+            </p>
+            <ul class="bk-list">
+              <li><span class="bk-list-bullet"></span> Complete maatwerkkeukens</li>
+              <li><span class="bk-list-bullet"></span> Vervangen van fronten, lades en bladen</li>
+              <li><span class="bk-list-bullet"></span> Apparatuur en indelingsadvies</li>
+              <li><span class="bk-list-bullet"></span> Herstel bij water- en brandschade</li>
+            </ul>
+          </article>
+
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">🏢</div>
+            <h3 class="bk-card-title">Zakelijke projecten &amp; aannemers</h3>
+            <p class="bk-card-text">
+              Keukens en pantry’s voor woningbouwprojecten, kantoren en zorginstellingen.
+              Met korte lijnen en duidelijke planning.
+            </p>
+            <ul class="bk-list">
+              <li><span class="bk-list-bullet"></span> Seriematige woningbouwkeukens</li>
+              <li><span class="bk-list-bullet"></span> Maatwerk koffiekeukens en kantines</li>
+              <li><span class="bk-list-bullet"></span> Korte levertijden mogelijk</li>
+            </ul>
+          </article>
+
+          <article class="bk-card">
+            <div class="bk-card-icon" aria-hidden="true">▤</div>
+            <h3 class="bk-card-title">Interieurbouw &amp; maatwerkmeubels</h3>
+            <p class="bk-card-text">
+              Voor wie verder wil kijken dan alleen de keuken: maatwerk in de rest van het interieur.
+            </p>
+            <ul class="bk-list">
+              <li><span class="bk-list-bullet"></span> Garderobekasten en slaapkamerkasten</li>
+              <li><span class="bk-list-bullet"></span> TV-meubels, bijkeukens en kantoorinrichting</li>
+              <li><span class="bk-list-bullet"></span> Badkamer- en wastafelmeubels</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impressies -->
+    <section id="impressies" class="bk-section bk-section--alt">
+      <div class="bk-shell bk-grid-2 bk-reveal">
+        <div>
+          <div class="bk-section__header">
+            <div class="bk-eyebrow">Impressies</div>
+            <h2 class="bk-title">Een selectie van recent werk.</h2>
+            <p class="bk-lead">
+              Iedere ruimte en iedere klantvraag is anders. Daarom is vrijwel ieder project uniek.
+              Onderstaande sfeerbeelden geven een indruk van het soort maatwerk dat we maken.
+            </p>
+          </div>
+
+          <div class="bk-badge">
+            <i aria-hidden="true">★</i>
+            Veel projecten in Helmond en omgeving
+          </div>
+
+          <p class="bk-lead" style="font-size:0.92rem;">
+            Wilt u meer zien of een specifiek project bespreken? Neem gerust contact op,
+            dan kijken we samen naar de mogelijkheden.
+          </p>
+        </div>
+
+        <div class="bk-gallery">
+          <div class="bk-gallery-main">
+            <img src="https://bootkeukens.nl/content/images/2021/10/kam-idris-hYb7kbu4x7E-unsplash.jpg" alt="Maatwerk keuken met hout en zwarte accenten" />
+          </div>
+          <div class="bk-gallery-side">
+            <img src="https://bootkeukens.nl/content/images/2021/10/77498847-2008-401D-833E-6810F4BCA2CC.jpeg" alt="Maatwerk keuken met kookeiland" />
+            <img src="https://bootkeukens.nl/content/images/2021/10/Johan-Mierlo-1.jpg" alt="Interieur met maatwerkkast" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Werkwijze -->
+    <section id="werkwijze" class="bk-section bk-section--tight">
+      <div class="bk-shell bk-reveal">
+        <div class="bk-section__header">
+          <div class="bk-eyebrow">Werkwijze</div>
+          <h2 class="bk-title">Rustig oriënteren, helder traject.</h2>
+          <p class="bk-lead">
+            Geen grote showrooms of snelle acties, maar een overzichtelijke werkwijze.
+            We nemen de tijd om mee te denken, zodat u precies weet waar u aan toe bent.
+          </p>
+        </div>
+
+        <div class="bk-steps">
+          <div>
+            <div class="bk-step-number">1</div>
+            <div class="bk-step-title">Kennismaking &amp; wensen</div>
+            <p>
+              In een eerste gesprek neemt u tekeningen, maten of foto’s mee.
+              We bespreken uw wensen en mogelijkheden, zonder verplichtingen.
+            </p>
+          </div>
+
+          <div>
+            <div class="bk-step-number">2</div>
+            <div class="bk-step-title">Voorstel &amp; materiaalkeuze</div>
+            <p>
+              Op basis van uw wensen maken we een voorstel.
+              Samen kijken we naar materialen, indeling en apparatuur,
+              zodat het geheel praktisch én mooi wordt.
+            </p>
+          </div>
+
+          <div>
+            <div class="bk-step-number">3</div>
+            <div class="bk-step-title">Productie &amp; montage</div>
+            <p>
+              In onze werkplaats wordt uw keuken of meubel zorgvuldig voorbereid.
+              Daarna plannen we de montage op locatie en leveren we netjes op.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bk-section bk-section--alt">
+      <div class="bk-shell bk-contact-layout bk-reveal">
+        <div>
+          <div class="bk-section__header">
+            <div class="bk-eyebrow">Contact</div>
+            <h2 class="bk-title">Plan een rustig kennismakingsmoment.</h2>
+            <p class="bk-lead">
+              Heeft u bouw- of verbouwplannen en wilt u eens rustig sparren over de keuken of het interieur?
+              Stuur een bericht of neem telefonisch contact op, dan kijken we samen naar een geschikt moment.
+            </p>
+          </div>
+
+          <div class="bk-contact-card">
+            <div class="bk-contact-grid">
+              <div>
+                <div class="bk-contact-label">Adres</div>
+                <div class="bk-contact-value">
+                  Boot Keukens &amp; Interieurbouw<br />
+                  Burgemeester Krollaan 9<br />
+                  5707 BA Helmond
+                </div>
+              </div>
+              <div>
+                <div class="bk-contact-label">Contact</div>
+                <div class="bk-contact-value">
+                  <a href="tel:+31492539002">0492 - 539 002</a><br />
+                  <a href="mailto:info@bootkeukens.nl">info@bootkeukens.nl</a>
+                </div>
+              </div>
+            </div>
+
+            <p class="bk-contact-note">
+              Telefonisch zijn we op werkdagen bereikbaar. Spreekt u de voicemail in,
+              dan bellen we u zo snel mogelijk terug.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <form class="bk-contact-form" action="mailto:info@bootkeukens.nl" method="post" enctype="text/plain">
+            <h3 class="bk-card-title" style="margin-top:0;">Stuur een bericht</h3>
+            <p class="bk-card-text" style="margin-bottom:1.1rem;">
+              Vul uw gegevens in en een korte omschrijving van uw vraag of plan.
+            </p>
+
+            <div class="bk-field">
+              <label for="naam">Naam</label>
+              <input id="naam" name="Naam" type="text" required />
+            </div>
+
+            <div class="bk-field">
+              <label for="email">E-mailadres</label>
+              <input id="email" name="E-mail" type="email" required />
+            </div>
+
+            <div class="bk-field">
+              <label for="telefoon">Telefoonnummer (optioneel)</label>
+              <input id="telefoon" name="Telefoon" type="tel" />
+            </div>
+
+            <div class="bk-field">
+              <label for="bericht">Uw bericht</label>
+              <textarea id="bericht" name="Bericht" required></textarea>
+            </div>
+
+            <button type="submit" class="bk-button bk-button--primary">
+              <span>Verstuur bericht</span>
+              <span class="bk-button-icon" aria-hidden="true">→</span>
+            </button>
+
+            <p class="bk-form-footnote">
+              Door uw gegevens te versturen geeft u toestemming om contact met u op te nemen
+              over uw vraag. Uw gegevens worden niet met derden gedeeld.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bk-footer">
+    <div class="bk-shell bk-footer-inner">
+      <div>© <span id="year"></span> Boot Keukens &amp; Interieurbouw · Helmond</div>
+      <div class="bk-footer-links">
+        <a href="https://bootkeukens.nl/privacy/">Privacy</a>
+        <a href="https://bootkeukens.nl/disclaimer/">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dynamisch jaar in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mobiele navigatie
+    const navToggle = document.querySelector(".bk-nav-toggle");
+    const navMobile = document.querySelector(".bk-nav-mobile");
+
+    if (navToggle) {
+      navToggle.addEventListener("click", () => {
+        const isOpen = navToggle.classList.toggle("is-open");
+        navMobile.style.display = isOpen ? "flex" : "none";
+        navToggle.setAttribute("aria-label", isOpen ? "Navigatie sluiten" : "Navigatie openen");
+      });
+
+      navMobile.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+          navToggle.classList.remove("is-open");
+          navMobile.style.display = "none";
+          navToggle.setAttribute("aria-label", "Navigatie openen");
+        });
+      });
+    }
+
+    // Subtiele reveal animaties bij scroll
+    const reveals = document.querySelectorAll(".bk-reveal");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
