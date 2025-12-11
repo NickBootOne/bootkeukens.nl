@@ -86,9 +86,12 @@
       fill: var(--bk-orange);
       transition: transform 0.2s ease;
     }
-    
-    .bk-whatsapp:hover svg {
-      transform: scale(1.12);
+    /* Zorg dat contactlinks altijd onder elkaar staan */
+    .bk-contact-value a {
+      display: inline-flex;
+      width: 100%;       /* FORCEERT NIEUWE REGEL */
+      align-items: center;
+      margin: 0.1rem 0;  /* KLEINE SPACING */
     }
 
     .bk-shell {
